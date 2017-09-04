@@ -1,0 +1,34 @@
+{
+  "name": "v-cordova",
+  "version": "1.0.0",
+  "description": "vue cordova",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-liu/v-cordova.git"
+  },
+  "author": "liujianfei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-liu/v-cordova/issues"
+  },
+  "homepage": "https://github.com/a-liu/v-cordova#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2016": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "keywords": [
+    "cordova",
+    "vuejs",
+    "plugin",
+    "ble"
+  ]
+}
